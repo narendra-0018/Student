@@ -28,7 +28,7 @@ if (isset($_POST['submit'])) {
 ?>
             <script>
                 alert("Name Already Exists");
-                window.open('../service-pages/admin-exam-details-upload.php', '_self');
+                window.open('../service-pages/admin-exam-details-upload.html', '_self');
             </script>
             <?php
         } else {
@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) {
             ?>
                 <script>
                     alert('Details Added Successfully!');
-                    window.open('../service-pages/admin-exam-details-upload.php', '_self');
+                    window.open('../service-pages/admin-exam-details-upload.html', '_self');
                 </script>
 <?php
 

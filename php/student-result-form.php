@@ -75,7 +75,7 @@
         $emailid = $_POST['emailid'];
         $regno = $_POST['regno'];
 
-        $con = mysqli_connect('localhost', 'root', '', 'student result management system', '3308');
+        $con = mysqli_connect('localhost', 'root', '', 'stddb');
         if ($con == false) {
             echo "Error in connection";
         } else {
@@ -160,7 +160,7 @@
                 echo "<tr>";
                 echo "<th scope='row'></th>";
                 echo "<td><b>Subtotal</b></td>";
-                echo "<td>" . $data["total"] . "</td>";
+                echo "<td>" . $data['subtotal'] . "</td>";
                 echo "<td><b>/ 250</b></td>";
                 echo "</tr>";
 
@@ -237,7 +237,7 @@
                     <div class="col-lg-4 mt-3">
                         <h4>GIET University, Gunupur</h4>
                         <div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.370597045841!2d83.82906381455042!3d19.047436857820166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3c96658f8652ad%3A0x7dafcb1b8586f019!2sGIET%20University!5e0!3m2!1sen!2sin!4v1597123573187!5m2!1sen!2sin" width="440" height="440" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d113917.829226785!2d75.7449545434552!3d26.84210985265844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d26.9185259!2d75.7689657!4m5!1s0x396dc91e898380fd%3A0xeee859ae1f1b64b0!2sPoornima%20Institute%20of%20Engineering%20and%20Technology%2C%20ISI%20-%202%2C%20Poornima%20Marg%2C%20Sitapura%2C%20Jaipur%2C%20Rajasthan%20302022!3m2!1d26.7677794!2d75.8503812!5e0!3m2!1sen!2sin!4v1685560752237!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>

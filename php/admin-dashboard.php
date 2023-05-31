@@ -14,7 +14,7 @@
     ?>
 
         <script>
-            window.open('../service-pages/admin-exam-details-upload.php', '_self');
+            window.open('../service-pages/admin-exam-details-upload.html', '_self');
         </script>
 
     <?php
